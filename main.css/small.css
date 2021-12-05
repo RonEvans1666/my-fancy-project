@@ -10,7 +10,10 @@ body {
 
 /*grid rules*/
 .row {clear: both;}
-
+.limited {
+    max-width: 1000px;
+    margin: auto;
+}
 .column{float: left; padding: 0 2vw; margin 0 0 .75rem 0;}
 
 .small-12{width: 100%;}
@@ -19,7 +22,7 @@ body {
 
     footer {
         background-color: #aa2114;
-        font-size: 1.2rem
+        font-size: 1.2rem;
 
     }
     footer h2 {
@@ -33,3 +36,40 @@ body {
         display: table;
         clear: both;
     }
+
+
+
+    main img {
+        width: 100%;
+        height: auto;
+        
+    }
+    /* header rules */
+    header {
+        background-color: #aa2114;
+    }
+    button#hamburgerBtn { 
+        background: none;
+        border:none;
+        color: #fff;
+        font-size: 2.4rem;
+        cursor: pointer;
+        padding: 0 30px 0 2vw;
+        }
+        nav 
+            {background-color: #aa1712;}
+            nav ul {margin: 0; padding: 0;}
+            nav ul li { list-style-type: none;}
+            nav a {
+                display: block;
+                padding: .8rem 0;
+                color: #eeee;
+                text-align: center;
+                text-decoration: none;
+            }
+            nav a:hover { background-color: rgba(0,0,0,0.2);}
+            nav ul.open {display: block;}
+            nav ul {display: none;}
+
+            
+        
