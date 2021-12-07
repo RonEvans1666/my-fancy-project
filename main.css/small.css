@@ -59,7 +59,7 @@ body {
         nav 
             {background-color: #aa1712;}
             nav ul {margin: 0; padding: 0;}
-            nav ul li { list-style-type: none;}
+            nav li { list-style-type: none;}
             nav a {
                 display: block;
                 padding: .8rem 0;
@@ -71,5 +71,7 @@ body {
             nav ul.open {display: block;}
             nav ul {display: none;}
 
-            
+            nav li.active {
+                background-color: rgba(0,0,0,0.5);
+            }
         
