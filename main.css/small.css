@@ -75,4 +75,7 @@ main {
             nav li.active {
                 background-color: rgba(0,0,0,0.5);
             }
+            header h1 {
+                text-align: center;
+            }
         
